@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
             <Helmet>
-                <title>Abo Saleh Real Estate - Premium Properties</title>
+                <title>Abo Saleh Real Estate</title>
                 <meta
                     name="description"
                     content="Discover exceptional real estate opportunities with Abo Saleh Real Estate, your trusted partner in finding the perfect property."
