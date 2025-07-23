@@ -161,6 +161,37 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <div className="text-center">
+                <p
+                    className="text-[0.8rem]"
+                    style={{
+                        direction: "ltr",
+                        unicodeBidi: "isolate",
+                    }}
+                >
+                    Powered By{" "}
+                    <a target="_blank" href="https://brndnglb.com">
+                        <span
+                            style={{
+                                fontFamily: "Archivo Black",
+                                color: "white",
+                            }}
+                            className="text-[1rem]"
+                        >
+                            Brndng
+                        </span>
+                        <span
+                            className="text-[1.5rem]"
+                            style={{
+                                fontFamily: "Archivo Black",
+                                color: "#FF914D",
+                            }}
+                        >
+                            .
+                        </span>
+                    </a>
+                </p>
+            </div>
         </footer>
     );
 };
