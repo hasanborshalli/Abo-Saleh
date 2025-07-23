@@ -49,7 +49,7 @@ const Navbar = () => {
                     <img
                         src="/logo.png"
                         alt="Abo Saleh Real Estate"
-                        className="h-16 md:h-20 w-auto object-contain"
+                        className="h-14 md:h-16 w-auto object-contain"
                     />
                 </Link>
                 {/* Desktop Navigation */}
