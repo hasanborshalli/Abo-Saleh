@@ -26,13 +26,15 @@ const Footer = () => {
                         </p>
                         <div className="flex space-x-4">
                             <a
-                                href="#"
+                                target="_blank"
+                                href="https://www.facebook.com/abousaleh.ME/?ref=_xav_ig_profile_page_web"
                                 className="text-gray-300 hover:text-[#DFC578] transition-colors"
                             >
                                 <FacebookIcon size={20} />
                             </a>
                             <a
-                                href="#"
+                                target="_blank"
+                                href="https://www.instagram.com/abousaleh.me?igsh=MWp2Z2N6NWx6aXJoNg%3D%3D"
                                 className="text-gray-300 hover:text-[#DFC578] transition-colors"
                             >
                                 <InstagramIcon size={20} />
