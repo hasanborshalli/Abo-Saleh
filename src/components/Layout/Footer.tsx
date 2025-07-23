@@ -15,9 +15,9 @@ const Footer = () => {
                     {/* Company Info */}
                     <div>
                         <img
-                            src="https://placehold.co/200x50/BF9320/FFFFFF?text=Abu+Saleh"
+                            src="/logo.png"
                             alt="Abo Saleh Real Estate"
-                            className="h-12 mb-4"
+                            className="h-16 md:h-20 w-auto object-contain mb-4"
                         />
                         <p className="text-gray-300 mb-4">
                             Premium real estate solutions for discerning

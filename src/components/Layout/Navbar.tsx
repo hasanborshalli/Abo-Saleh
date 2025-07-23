@@ -47,9 +47,9 @@ const Navbar = () => {
             <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
                 <Link to="/" className="flex items-center">
                     <img
-                        src="https://placehold.co/200x50/BF9320/FFFFFF?text=Abu+Saleh"
+                        src="/logo.png"
                         alt="Abo Saleh Real Estate"
-                        className="h-10 md:h-12"
+                        className="h-16 md:h-20 w-auto object-contain"
                     />
                 </Link>
                 {/* Desktop Navigation */}
