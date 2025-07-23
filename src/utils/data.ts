@@ -19,7 +19,7 @@ export const certificates: Certificate[] = [
         title: "Institution registration certificate",
         issuer: "Ministry of Finance of Lebanon",
         year: 2025,
-        image: "./lebanon.jpeg",
+        image: "./lebanon.png",
     },
     {
         id: "cert-003",
@@ -33,7 +33,7 @@ export const certificates: Certificate[] = [
         title: "Building permit",
         issuer: "Nabatieh Municipality",
         year: 2025,
-        image: "./build.jpeg",
+        image: "./build.png",
     },
 ];
 export interface TeamMember {
@@ -65,6 +65,6 @@ export const teamMembers: TeamMember[] = [
         id: "team-004",
         name: "Sarah Al Fares",
         position: "Accounting Officer",
-        image: "./t4.png",
+        image: "./t5.png",
     },
 ];
