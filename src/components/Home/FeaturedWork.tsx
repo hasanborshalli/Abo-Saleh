@@ -109,6 +109,11 @@ const FeaturedWork = () => {
                             <div className="absolute top-4 left-4 bg-[#BF9320] text-white px-3 py-1 rounded-full text-sm font-medium">
                                 {image.category}
                             </div>
+                            <img
+                                src="./colored-logo.png"
+                                alt="Logo"
+                                className="absolute bottom-2 left-2 w-12 h-12 object-contain  rounded"
+                            />
                         </motion.div>
                     ))}
                 </div>

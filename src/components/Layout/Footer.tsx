@@ -17,7 +17,7 @@ const Footer = () => {
                         <img
                             src="/logo.png"
                             alt="Abo Saleh Real Estate"
-                            className="h-14 md:h-16 w-auto object-contain mb-4"
+                            className="h-16 md:h-16 w-auto object-contain mb-4"
                         />
                         <p className="text-gray-300 mb-4">
                             Premium real estate solutions for discerning
@@ -27,7 +27,7 @@ const Footer = () => {
                         <div className="flex space-x-4">
                             <a
                                 target="_blank"
-                                href="https://www.facebook.com/abousaleh.ME/?ref=_xav_ig_profile_page_web"
+                                href="https://www.facebook.com/abousaleh.ME/"
                                 className="text-gray-300 hover:text-[#DFC578] transition-colors"
                             >
                                 <FacebookIcon size={20} />
@@ -40,7 +40,7 @@ const Footer = () => {
                                 <InstagramIcon size={20} />
                             </a>
                             <a
-                                href="#"
+                                href="https://www.tiktok.com/@abousalehco?_t=ZS-8yJj5nttxWC&_r=1"
                                 className="text-gray-300 hover:text-[#DFC578] transition-colors"
                             >
                                 <svg

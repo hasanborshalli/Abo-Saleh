@@ -55,7 +55,7 @@ const ConstructionGallery = () => {
                     {constructionImages.map((image, index) => (
                         <motion.div
                             key={image.id}
-                            className="rounded-lg overflow-hidden shadow-md"
+                            className="rounded-lg overflow-hidden shadow-md relative"
                             initial={{
                                 opacity: 0,
                                 y: 20,
@@ -75,6 +75,11 @@ const ConstructionGallery = () => {
                             <img
                                 src={image.url}
                                 className="w-full h-64 object-cover"
+                            />
+                            <img
+                                src="./colored-logo.png"
+                                alt="Logo"
+                                className="absolute bottom-2 left-2 w-12 h-12 object-contain  rounded"
                             />
                         </motion.div>
                     ))}
