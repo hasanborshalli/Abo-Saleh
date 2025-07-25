@@ -40,6 +40,7 @@ const Footer = () => {
                                 <InstagramIcon size={20} />
                             </a>
                             <a
+                                target="_blank"
                                 href="https://www.tiktok.com/@abousalehco?_t=ZS-8yJj5nttxWC&_r=1"
                                 className="text-gray-300 hover:text-[#DFC578] transition-colors"
                             >

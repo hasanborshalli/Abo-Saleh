@@ -53,6 +53,7 @@ const ContactInfo = () => {
                 <h3 className="text-xl font-bold mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
                     <a
+                        target="_blank"
                         href="https://www.facebook.com/abousaleh.ME/"
                         className="bg-gray-100 hover:bg-[#BF9320] hover:text-white text-gray-600 p-3 rounded-full transition-colors duration-300"
                         aria-label="Facebook"
@@ -68,6 +69,7 @@ const ContactInfo = () => {
                         </svg>
                     </a>
                     <a
+                        target="_blank"
                         href="https://www.instagram.com/abousaleh.me?igsh=MWp2Z2N6NWx6aXJoNg%3D%3D"
                         className="bg-gray-100 hover:bg-[#BF9320] hover:text-white text-gray-600 p-3 rounded-full transition-colors duration-300"
                         aria-label="Instagram"
@@ -83,6 +85,7 @@ const ContactInfo = () => {
                         </svg>
                     </a>
                     <a
+                        target="_blank"
                         href="https://www.tiktok.com/@abousalehco?_t=ZS-8yJj5nttxWC&_r=1"
                         className="bg-gray-100 hover:bg-[#BF9320] hover:text-white text-gray-600 p-3 rounded-full transition-colors duration-300"
                         aria-label="TikTok"
