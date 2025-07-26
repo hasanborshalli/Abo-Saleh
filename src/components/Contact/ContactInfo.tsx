@@ -27,7 +27,7 @@ const ContactInfo = () => {
         {
             icon: <MailIcon size={24} className="text-[#BF9320]" />,
             title: "Email Address",
-            details: "info@abusalehrealestate.com",
+            details: "abousalehgeneraltrading@gmail.com",
         },
         {
             icon: <ClockIcon size={24} className="text-[#BF9320]" />,

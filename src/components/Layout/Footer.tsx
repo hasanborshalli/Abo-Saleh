@@ -147,7 +147,7 @@ const Footer = () => {
                                     className="mr-2 text-[#DFC578]"
                                 />
                                 <span className="text-gray-300">
-                                    info@abusalehrealestate.com
+                                    abousalehgeneraltrading@gmail.com
                                 </span>
                             </li>
                         </ul>
