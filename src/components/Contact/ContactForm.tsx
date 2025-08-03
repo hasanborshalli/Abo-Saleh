@@ -80,7 +80,7 @@ const ContactForm = () => {
                     </p>
                     <button
                         onClick={() => setIsSubmitted(false)}
-                        className="bg-[#BF9320] hover:bg-[#DFC578] text-white px-6 py-3 rounded transition-colors duration-300"
+                        className="bg-[#f7c59f] hover:bg-[#DFC578] text-white px-6 py-3 rounded transition-colors duration-300"
                     >
                         Send Another Message
                     </button>
@@ -102,7 +102,7 @@ const ContactForm = () => {
                                 value={formState.name}
                                 onChange={handleChange}
                                 required
-                                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#BF9320] focus:border-[#BF9320] outline-none"
+                                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#f7c59f] focus:border-[#f7c59f] outline-none"
                             />
                         </div>
                         <div>
@@ -119,7 +119,7 @@ const ContactForm = () => {
                                 value={formState.email}
                                 onChange={handleChange}
                                 required
-                                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#BF9320] focus:border-[#BF9320] outline-none"
+                                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#f7c59f] focus:border-[#f7c59f] outline-none"
                             />
                         </div>
                         <div>
@@ -136,7 +136,7 @@ const ContactForm = () => {
                                 value={formState.phone}
                                 onChange={handleChange}
                                 required
-                                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#BF9320] focus:border-[#BF9320] outline-none"
+                                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#f7c59f] focus:border-[#f7c59f] outline-none"
                             />
                         </div>
                         <div>
@@ -154,7 +154,7 @@ const ContactForm = () => {
                                 onChange={handleChange}
                                 required
                                 placeholder="Enter subject"
-                                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#BF9320] focus:border-[#BF9320] outline-none"
+                                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#f7c59f] focus:border-[#f7c59f] outline-none"
                             />
                         </div>
                     </div>
@@ -172,14 +172,14 @@ const ContactForm = () => {
                             onChange={handleChange}
                             required
                             rows={5}
-                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#BF9320] focus:border-[#BF9320] outline-none"
+                            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#f7c59f] focus:border-[#f7c59f] outline-none"
                         ></textarea>
                     </div>
                     <div>
                         <button
                             type="submit"
                             disabled={isSubmitting}
-                            className={`w-full bg-[#BF9320] hover:bg-[#DFC578] text-white px-6 py-3 rounded transition-colors duration-300 flex items-center justify-center ${
+                            className={`w-full bg-[#f7c59f] hover:bg-[#DFC578] text-white px-6 py-3 rounded transition-colors duration-300 flex items-center justify-center ${
                                 isSubmitting
                                     ? "opacity-70 cursor-not-allowed"
                                     : ""

@@ -37,7 +37,7 @@ const AboutPreview = () => {
                                 className="w-full h-full object-cover"
                             />
                         </div>
-                        <div className="absolute -bottom-6 -right-6 w-40 h-40 bg-[#BF9320] rounded-lg -z-10"></div>
+                        <div className="absolute -bottom-6 -right-6 w-40 h-40 bg-[#f7c59f] rounded-lg -z-10"></div>
                     </motion.div>
                     <motion.div
                         initial={{
@@ -57,7 +57,7 @@ const AboutPreview = () => {
                     >
                         <h2 className="text-3xl md:text-4xl font-bold mb-6">
                             About{" "}
-                            <span className="text-[#BF9320]">Abo Saleh</span>{" "}
+                            <span className="text-[#f7c59f]">Abo Saleh</span>{" "}
                             Real Estate
                         </h2>
                         <p className="text-gray-600 mb-6">
@@ -91,7 +91,7 @@ const AboutPreview = () => {
                                 >
                                     <CheckCircle2Icon
                                         size={20}
-                                        className="text-[#BF9320] mr-2"
+                                        className="text-[#f7c59f] mr-2"
                                     />
                                     <span>{feature}</span>
                                 </motion.li>
@@ -99,7 +99,7 @@ const AboutPreview = () => {
                         </ul>
                         <Link
                             to="/about"
-                            className="inline-block bg-[#BF9320] hover:bg-[#DFC578] text-white px-6 py-3 rounded transition-colors duration-300"
+                            className="inline-block bg-[#f7c59f] hover:bg-[#DFC578] text-white px-6 py-3 rounded transition-colors duration-300"
                         >
                             Learn More About Us
                         </Link>

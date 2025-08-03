@@ -17,7 +17,7 @@ const Footer = () => {
                         <img
                             src="/logo.png"
                             alt="Abo Saleh Real Estate"
-                            className="h-16 md:h-16 w-auto object-contain mb-4"
+                            className="h-16 md:h-24 w-auto object-contain mb-4"
                         />
                         <p className="text-gray-300 mb-4">
                             Premium real estate solutions for discerning
@@ -28,21 +28,21 @@ const Footer = () => {
                             <a
                                 target="_blank"
                                 href="https://www.facebook.com/abousaleh.ME/"
-                                className="text-gray-300 hover:text-[#DFC578] transition-colors"
+                                className="text-gray-300 hover:text-[#f7c59f] transition-colors"
                             >
                                 <FacebookIcon size={20} />
                             </a>
                             <a
                                 target="_blank"
                                 href="https://www.instagram.com/abousaleh.me?igsh=MWp2Z2N6NWx6aXJoNg%3D%3D"
-                                className="text-gray-300 hover:text-[#DFC578] transition-colors"
+                                className="text-gray-300 hover:text-[#f7c59f] transition-colors"
                             >
                                 <InstagramIcon size={20} />
                             </a>
                             <a
                                 target="_blank"
                                 href="https://www.tiktok.com/@abousalehco?_t=ZS-8yJj5nttxWC&_r=1"
-                                className="text-gray-300 hover:text-[#DFC578] transition-colors"
+                                className="text-gray-300 hover:text-[#f7c59f] transition-colors"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -58,14 +58,14 @@ const Footer = () => {
                     </div>
                     {/* Quick Links */}
                     <div>
-                        <h3 className="text-lg font-semibold mb-4 text-[#DFC578]">
+                        <h3 className="text-lg font-semibold mb-4 text-[#f7c59f]">
                             Quick Links
                         </h3>
                         <ul className="space-y-2">
                             <li>
                                 <Link
                                     to="/"
-                                    className="text-gray-300 hover:text-[#DFC578] transition-colors"
+                                    className="text-gray-300 hover:text-[#f7c59f] transition-colors"
                                 >
                                     Home
                                 </Link>
@@ -73,7 +73,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/about"
-                                    className="text-gray-300 hover:text-[#DFC578] transition-colors"
+                                    className="text-gray-300 hover:text-[#f7c59f] transition-colors"
                                 >
                                     About Us
                                 </Link>
@@ -81,7 +81,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/our-work"
-                                    className="text-gray-300 hover:text-[#DFC578] transition-colors"
+                                    className="text-gray-300 hover:text-[#f7c59f] transition-colors"
                                 >
                                     Our Work
                                 </Link>
@@ -89,7 +89,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/contact"
-                                    className="text-gray-300 hover:text-[#DFC578] transition-colors"
+                                    className="text-gray-300 hover:text-[#f7c59f] transition-colors"
                                 >
                                     Contact
                                 </Link>
@@ -99,14 +99,14 @@ const Footer = () => {
 
                     {/* Contact Info */}
                     <div>
-                        <h3 className="text-lg font-semibold mb-4 text-[#DFC578]">
+                        <h3 className="text-lg font-semibold mb-4 text-[#f7c59f]">
                             Contact Us
                         </h3>
                         <ul className="space-y-3">
                             <li className="flex items-start">
                                 <MapPinIcon
                                     size={20}
-                                    className="mr-2 text-[#DFC578] flex-shrink-0 mt-1"
+                                    className="mr-2 text-[#f7c59f] flex-shrink-0 mt-1"
                                 />
                                 <span className="text-gray-300">
                                     Baabda, Bamkin, Al Nazha Street, Nasser
@@ -116,7 +116,7 @@ const Footer = () => {
                             <li className="flex items-start">
                                 <MapPinIcon
                                     size={20}
-                                    className="mr-2 text-[#DFC578] flex-shrink-0 mt-1"
+                                    className="mr-2 text-[#f7c59f] flex-shrink-0 mt-1"
                                 />
                                 <span className="text-gray-300">
                                     Nabatieh, Main Street, Hikayat Building, 1st
@@ -126,7 +126,7 @@ const Footer = () => {
                             <li className="flex items-center">
                                 <PhoneIcon
                                     size={20}
-                                    className="mr-2 text-[#DFC578]"
+                                    className="mr-2 text-[#f7c59f]"
                                 />
                                 <span className="text-gray-300">
                                     +961 71 999 219
@@ -135,19 +135,19 @@ const Footer = () => {
                             <li className="flex items-center">
                                 <PhoneIcon
                                     size={20}
-                                    className="mr-2 text-[#DFC578]"
+                                    className="mr-2 text-[#f7c59f]"
                                 />
                                 <span className="text-gray-300">
-                                    +961 76 818 028
+                                    +961 3 754 029
                                 </span>
                             </li>
                             <li className="flex items-center">
                                 <MailIcon
                                     size={20}
-                                    className="mr-2 text-[#DFC578]"
+                                    className="mr-2 text-[#f7c59f]"
                                 />
                                 <span className="text-gray-300">
-                                    abousalehgeneraltrading@gmail.com
+                                    info@abousaleh.me
                                 </span>
                             </li>
                         </ul>

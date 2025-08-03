@@ -41,7 +41,7 @@ const Navbar = () => {
     return (
         <header
             className={`fixed w-full z-50 transition-all duration-300 ${
-                scrolled ? "bg-[#2B3149] shadow-md py-2" : "bg-transparent py-4"
+                scrolled ? "bg-[#2a324b] shadow-md py-2" : "bg-transparent py-4"
             }`}
         >
             <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
@@ -49,7 +49,7 @@ const Navbar = () => {
                     <img
                         src="/logo.png"
                         alt="Abo Saleh Real Estate"
-                        className="h-16 md:h-16 w-auto object-contain"
+                        className="h-16 md:h-24 w-auto object-contain"
                     />
                 </Link>
                 {/* Desktop Navigation */}
@@ -58,9 +58,9 @@ const Navbar = () => {
                         <Link
                             key={link.name}
                             to={link.path}
-                            className={`font-medium transition-colors hover:text-[#BF9320] ${
+                            className={`font-medium transition-colors hover:text-[#f7c59f] ${
                                 location.pathname === link.path
-                                    ? "text-[#BF9320]"
+                                    ? "text-[#f7c59f]"
                                     : scrolled
                                     ? "text-white"
                                     : "text-black"
@@ -72,7 +72,7 @@ const Navbar = () => {
                 </nav>
                 {/* Mobile Menu Button */}
                 <button
-                    className="md:hidden text-[#BF9320] focus:outline-none"
+                    className="md:hidden text-[#f7c59f] focus:outline-none"
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     {isOpen ? <XIcon size={24} /> : <MenuIcon size={24} />}
@@ -102,7 +102,7 @@ const Navbar = () => {
                                 to={link.path}
                                 className={`py-2 font-medium ${
                                     location.pathname === link.path
-                                        ? "text-[#BF9320]"
+                                        ? "text-[#f7c59f]"
                                         : "text-black"
                                 }`}
                             >

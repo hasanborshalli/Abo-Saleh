@@ -24,7 +24,7 @@ const TeamSection = () => {
                             duration: 0.6,
                         }}
                     >
-                        Meet Our <span className="text-[#BF9320]">Team</span>
+                        Meet Our <span className="text-[#f7c59f]">Team</span>
                     </motion.h2>
                     <motion.p
                         className="text-gray-600"
@@ -81,7 +81,7 @@ const TeamSection = () => {
                                 <h3 className="text-xl font-semibold mb-1">
                                     {member.name}
                                 </h3>
-                                <p className="text-[#BF9320] mb-4">
+                                <p className="text-[#f7c59f] mb-4">
                                     {member.position}
                                 </p>
                             </div>

@@ -47,7 +47,7 @@ const HeroSection = () => {
                         }}
                     >
                         Discover Your{" "}
-                        <span className="text-[#DFC578]">Perfect Property</span>
+                        <span className="text-[#f7c59f]">Perfect Property</span>
                     </motion.h1>
                     <motion.p
                         className="text-lg md:text-xl mb-8 text-gray-200"
@@ -84,14 +84,14 @@ const HeroSection = () => {
                     >
                         <Link
                             to="/our-work"
-                            className="bg-[#BF9320] hover:bg-[#DFC578] text-white px-8 py-3 rounded transition-colors duration-300 flex items-center justify-center"
+                            className="bg-[#f7c59f] hover:bg-[#DFC578] text-white px-8 py-3 rounded transition-colors duration-300 flex items-center justify-center"
                         >
                             Check Our Work
                             <ArrowRightIcon size={18} className="ml-2" />
                         </Link>
                         <Link
                             to="/contact"
-                            className="border-2 border-white hover:border-[#DFC578] hover:text-[#DFC578] text-white px-8 py-3 rounded transition-colors duration-300 flex items-center justify-center"
+                            className="border-2 border-white hover:border-[#f7c59f] hover:text-[#f7c59f] text-white px-8 py-3 rounded transition-colors duration-300 flex items-center justify-center"
                         >
                             Contact Us
                         </Link>

@@ -30,7 +30,7 @@ const Contact = () => {
                         }}
                     >
                         <h1 className="text-3xl md:text-4xl font-bold mb-4">
-                            Contact <span className="text-[#BF9320]">Us</span>
+                            Contact <span className="text-[#f7c59f]">Us</span>
                         </h1>
                         <p className="text-gray-600 max-w-2xl mx-auto">
                             Have a question or want to learn more about our

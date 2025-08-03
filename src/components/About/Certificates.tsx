@@ -24,7 +24,7 @@ const Certificates = () => {
                         }}
                     >
                         Our{" "}
-                        <span className="text-[#BF9320]">Certifications</span> &
+                        <span className="text-[#f7c59f]">Certifications</span> &
                         Licenses
                     </motion.h2>
                     <motion.p
@@ -85,7 +85,7 @@ const Certificates = () => {
                                 <p className="text-gray-600 mb-1">
                                     Issued by: {certificate.issuer}
                                 </p>
-                                <p className="text-[#BF9320] font-medium">
+                                <p className="text-[#f7c59f] font-medium">
                                     Year: {certificate.year}
                                 </p>
                             </div>

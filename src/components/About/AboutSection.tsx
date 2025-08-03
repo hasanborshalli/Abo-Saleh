@@ -9,25 +9,25 @@ import {
 const AboutSection = () => {
     const values = [
         {
-            icon: <TrophyIcon size={32} className="text-[#BF9320]" />,
+            icon: <TrophyIcon size={32} className="text-[#f7c59f]" />,
             title: "Excellence",
             description:
                 "We strive for excellence in every aspect of our service, setting the highest standards in the real estate industry.",
         },
         {
-            icon: <BuildingIcon size={32} className="text-[#BF9320]" />,
+            icon: <BuildingIcon size={32} className="text-[#f7c59f]" />,
             title: "Expertise",
             description:
                 "Our team brings deep market knowledge and professional expertise to help clients make informed real estate decisions.",
         },
         {
-            icon: <UserCheckIcon size={32} className="text-[#BF9320]" />,
+            icon: <UserCheckIcon size={32} className="text-[#f7c59f]" />,
             title: "Integrity",
             description:
                 "We conduct our business with unwavering integrity, transparency, and ethical standards that clients can trust.",
         },
         {
-            icon: <HeartHandshakeIcon size={32} className="text-[#BF9320]" />,
+            icon: <HeartHandshakeIcon size={32} className="text-[#f7c59f]" />,
             title: "Client Focus",
             description:
                 "We prioritize our clients' needs and goals, delivering personalized solutions and exceptional service.",
@@ -54,7 +54,7 @@ const AboutSection = () => {
                             duration: 0.6,
                         }}
                     >
-                        About <span className="text-[#BF9320]">Abo Saleh</span>{" "}
+                        About <span className="text-[#f7c59f]">Abo Saleh</span>{" "}
                         Real Estate
                     </motion.h1>
                     <motion.p
@@ -145,7 +145,7 @@ const AboutSection = () => {
                                 className="w-full h-full object-cover"
                             />
                         </div>
-                        <div className="absolute -bottom-6 -left-6 w-40 h-40 bg-[#DFC578] rounded-lg -z-10"></div>
+                        <div className="absolute -bottom-6 -left-6 w-40 h-40 bg-[#f7c59f] rounded-lg -z-10"></div>
                     </motion.div>
                 </div>
                 <div className="mb-16">

@@ -3,34 +3,34 @@ import { MapPinIcon, PhoneIcon, MailIcon, ClockIcon } from "lucide-react";
 const ContactInfo = () => {
     const contactDetails = [
         {
-            icon: <MapPinIcon size={24} className="text-[#BF9320]" />,
+            icon: <MapPinIcon size={24} className="text-[#f7c59f]" />,
             title: "First Location",
             details:
                 "Baabda, Bamkin, Al Nazha Street, Nasser Building, 1st Floor",
         },
         {
-            icon: <MapPinIcon size={24} className="text-[#BF9320]" />,
+            icon: <MapPinIcon size={24} className="text-[#f7c59f]" />,
             title: "Second Location",
             details:
                 "Nabatieh, Main Street, Hikayat Building, 1st Floor, Drahma",
         },
         {
-            icon: <PhoneIcon size={24} className="text-[#BF9320]" />,
+            icon: <PhoneIcon size={24} className="text-[#f7c59f]" />,
             title: "Phone Number",
             details: "+961 71 999 219",
         },
         {
-            icon: <PhoneIcon size={24} className="text-[#BF9320]" />,
+            icon: <PhoneIcon size={24} className="text-[#f7c59f]" />,
             title: "Phone Number",
-            details: "+961 76 818 028",
+            details: "+961 3 754 029",
         },
         {
-            icon: <MailIcon size={24} className="text-[#BF9320]" />,
+            icon: <MailIcon size={24} className="text-[#f7c59f]" />,
             title: "Email Address",
-            details: "abousalehgeneraltrading@gmail.com",
+            details: "info@abousaleh.me",
         },
         {
-            icon: <ClockIcon size={24} className="text-[#BF9320]" />,
+            icon: <ClockIcon size={24} className="text-[#f7c59f]" />,
             title: "Working Hours",
             details: "Mon - Sat: 10:00 AM - 5:00 PM",
         },
@@ -55,7 +55,7 @@ const ContactInfo = () => {
                     <a
                         target="_blank"
                         href="https://www.facebook.com/abousaleh.ME/"
-                        className="bg-gray-100 hover:bg-[#BF9320] hover:text-white text-gray-600 p-3 rounded-full transition-colors duration-300"
+                        className="bg-gray-100 hover:bg-[#f7c59f] hover:text-white text-gray-600 p-3 rounded-full transition-colors duration-300"
                         aria-label="Facebook"
                     >
                         <svg
@@ -71,7 +71,7 @@ const ContactInfo = () => {
                     <a
                         target="_blank"
                         href="https://www.instagram.com/abousaleh.me?igsh=MWp2Z2N6NWx6aXJoNg%3D%3D"
-                        className="bg-gray-100 hover:bg-[#BF9320] hover:text-white text-gray-600 p-3 rounded-full transition-colors duration-300"
+                        className="bg-gray-100 hover:bg-[#f7c59f] hover:text-white text-gray-600 p-3 rounded-full transition-colors duration-300"
                         aria-label="Instagram"
                     >
                         <svg
@@ -87,7 +87,7 @@ const ContactInfo = () => {
                     <a
                         target="_blank"
                         href="https://www.tiktok.com/@abousalehco?_t=ZS-8yJj5nttxWC&_r=1"
-                        className="bg-gray-100 hover:bg-[#BF9320] hover:text-white text-gray-600 p-3 rounded-full transition-colors duration-300"
+                        className="bg-gray-100 hover:bg-[#f7c59f] hover:text-white text-gray-600 p-3 rounded-full transition-colors duration-300"
                         aria-label="TikTok"
                     >
                         <svg

@@ -56,7 +56,7 @@ const FeaturedWork = () => {
                         }}
                     >
                         Featured{" "}
-                        <span className="text-[#BF9320]">Projects</span>
+                        <span className="text-[#f7c59f]">Projects</span>
                     </motion.h2>
                     <motion.p
                         className="text-gray-600 max-w-2xl mx-auto"
@@ -106,7 +106,7 @@ const FeaturedWork = () => {
                                 alt={image.alt}
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
-                            <div className="absolute top-4 left-4 bg-[#BF9320] text-white px-3 py-1 rounded-full text-sm font-medium">
+                            <div className="absolute top-4 left-4 bg-[#f7c59f] text-white px-3 py-1 rounded-full text-sm font-medium">
                                 {image.category}
                             </div>
                             <img
@@ -120,7 +120,7 @@ const FeaturedWork = () => {
                 <div className="text-center">
                     <Link
                         to="/our-work"
-                        className="inline-flex items-center bg-[#BF9320] hover:bg-[#DFC578] text-white px-8 py-3 rounded transition-colors duration-300"
+                        className="inline-flex items-center bg-[#f7c59f] hover:bg-[#DFC578] text-white px-8 py-3 rounded transition-colors duration-300"
                     >
                         View Our Work
                         <ArrowRightIcon size={18} className="ml-2" />
